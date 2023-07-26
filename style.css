@@ -1,0 +1,16 @@
+#game-container {
+    border: solid black 4px;
+    width: 800px;
+    height: 800px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+p {
+    font-size: 10rem;
+    margin: 0;
+}
