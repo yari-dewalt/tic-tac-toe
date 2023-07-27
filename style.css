@@ -6,11 +6,21 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;
 }
 
 p {
     font-size: 10rem;
     margin: 0;
+}
+
+p:hover {
+    cursor: default;
+}
+
+.space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border: solid black 1px;
 }
