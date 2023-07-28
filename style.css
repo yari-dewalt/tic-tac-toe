@@ -1,3 +1,14 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #game-container {
     border: solid black 4px;
     width: 800px;
@@ -21,6 +32,6 @@ p:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: green;
+    background-color: white;
     border: solid black 1px;
 }
